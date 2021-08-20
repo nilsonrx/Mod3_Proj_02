@@ -69,7 +69,6 @@ app.delete('/games/:id',(req, res)=>{
     res.send(`O jogo ${games} foi deletado com sucesso!`);
 })
 
-
 app.listen(port, ()=> {
     console.info(`App running on http://localhost:${port}/`);
 })
